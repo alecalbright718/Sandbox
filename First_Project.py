@@ -1,9 +1,3 @@
 import streamlit as st 
 
-st.write("This is super gay and not working")
-
-st.title("Were doing this again")
-
-st.title("Alec is gay")
-
-st.write("anything you want")
+st.selectbox("check this box if you like vegetables")
