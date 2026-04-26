@@ -1,3 +1,3 @@
 import streamlit as st 
 
-jibberish
+st.write("This is my application")
