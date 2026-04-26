@@ -1,3 +1,8 @@
 import streamlit as st 
 
-st.selectbox("check this box if you like vegetables")
+option = st.selectbox(
+    "What is your favorite vegetable?"
+    ("Broccoli", "spinnach", "Carrots")
+)
+
+st.write("You selected:", option)
